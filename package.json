@@ -2,9 +2,9 @@
   "name": "staticnode-expresssite",
   "version": "1.0.0",
   "description": "Portfolio site",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon .",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
