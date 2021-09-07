@@ -1,49 +1,88 @@
 {
-   "projects": [
-      {
-         "id": 0,
-         "project_name": "Quote Generator",
-         "description": "Generates and displays randomized  famous quotes",
-         "technologies": ["JavaScript", "CSS", "HTML"],
-         "live_link":  "",
-         "github_link": "https://github.com/Trevor5008/RandomQuoteGenerator",
-         "image_urls": ["",""]
-      },
-      {
-         "id": 1,
-         "project_name": "Game Show",
-         "description": "Single-player Phrase guessing game",
-         "technologies": ["HTML", "CSS", "JavaScript"],
-         "live_link":  "",
-         "github_link": "https://github.com/Trevor5008/GameShowApp",
-         "image_urls": ["/images/game_show_app.png",""]
-      },
-      {
-         "id": 2,
-         "project_name": "Mock Employee Data Generator",
-         "description": "Displays randomly generated employee data from an external API",
-         "technologies": ["JavaScript", "CSS", "API", "HTML"],
-         "live_link":  "",
-         "github_link": "https://github.com/Trevor5008/RandomUserGenerator",
-         "image_urls": ["",""]
-      },
-      {
-         "id": 3,
-         "project_name": "Interactive Form",
-         "description": "Responsive form with client-side validation and dynamic error-handling",
-         "technologies": ["HTML", "CSS", "JavaScript"],
-         "live_link":  "",
-         "github_link": "https://github.com/Trevor5008/InteractiveForm",
-         "image_urls": ["",""]
-      },
-      {
-         "id": 4,
-         "project_name": "Student Data Pages",
-         "description": "Pagination demonstration for mock student data",
-         "technologies": ["JavaScript", "CSS", "HTML"],
-         "live_link":  "",
-         "github_link": "https://github.com/Trevor5008/StudentDataPagination",
-         "image_urls": ["",""]
-      }
-   ]
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Quote Generator",
+      "description": "Generates and displays randomized  famous quotes",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "",
+      "github_link": "https://github.com/Trevor5008/RandomQuoteGenerator",
+      "image_urls": [
+        "/images/quote_generator_3.png",
+        "/images/quote-generator.gif",
+        "/images/quote_generator_1.png",
+        "/images/quote_generator_2.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Mock Employee Data Generator",
+      "description": "Displays randomly generated employee data from an external API",
+      "technologies": ["JavaScript", "CSS", "API", "HTML"],
+      "live_link": "",
+      "github_link": "https://github.com/Trevor5008/RandomUserGenerator",
+      "image_urls": [
+        "/images/employee_data_2.png",
+        "/images/employee_data.gif",
+        "/images/employee_data_1.png",
+        "/images/employee_data_3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Game Show",
+      "description": "Single-player Phrase guessing game",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/Trevor5008/GameShowApp",
+      "image_urls": [
+        "/images/game_show_app_2.png",
+        "/images/game_show.gif",
+        "/images/game_show_app_1.png",
+        "/images/game_show_app_3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Interactive Form",
+      "description": "Responsive form with client-side validation and dynamic error-handling",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/Trevor5008/InteractiveForm",
+      "image_urls": [
+        "/images/interactive_form_1.png",
+        "/images/interactive-form.gif",
+        "/images/interactive_form_2.png",
+        "/images/interactive_form_3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Mock Twitter (Twiddler)",
+      "description": "Simplified Twitter Clone",
+      "technologies": ["JavaScript", "CSS", "HTML", "jQuery"],
+      "live_link": "",
+      "github_link": "https://github.com/Trevor5008/TwitterClone",
+      "image_urls": [
+        "/images/twitter_clone_2.jpg",
+        "/images/twitter-clone.gif",
+        "/images/twitter_clone_1.jpg",
+        "/images/twitter_clone_3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "project_name": "Student Data Pages",
+      "description": "Pagination demonstration for mock student data",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "",
+      "github_link": "https://github.com/Trevor5008/StudentDataPagination",
+      "image_urls": [
+        "/images/student_data_1.png",
+        "/images/student-data-pages.gif",
+        "/images/student_data_2.png",
+        "/images/student_data_3.png"
+      ]
+    }
+  ]
 }
