@@ -21,7 +21,7 @@ block content
          each lang in projectData.technologies
             li= lang
 
-        a.btn-link(href='') Live Demo
+        a.btn-link(href= projectData.live_link) Live Demo
         a.btn-link(href= projectData.github_link target="_blank") GitHub Repo
     .project-img-box.box
       - let n= 1

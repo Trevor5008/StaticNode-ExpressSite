@@ -5,7 +5,7 @@
       "project_name": "Quote Generator",
       "description": "Generates and displays randomized  famous quotes",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "",
+      "live_link": "https://trevor5008.github.io/RandomQuoteGenerator/",
       "github_link": "https://github.com/Trevor5008/RandomQuoteGenerator",
       "image_urls": [
         "/images/quote_generator_3.png",
@@ -19,7 +19,7 @@
       "project_name": "Mock Employee Data Generator",
       "description": "Displays randomly generated employee data from an external API",
       "technologies": ["JavaScript", "CSS", "API", "HTML"],
-      "live_link": "",
+      "live_link": "https://trevor5008.github.io/RandomUserGenerator/",
       "github_link": "https://github.com/Trevor5008/RandomUserGenerator",
       "image_urls": [
         "/images/employee_data_2.png",
@@ -33,7 +33,7 @@
       "project_name": "Game Show",
       "description": "Single-player Phrase guessing game",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://trevor5008.github.io/GameShowApp/",
       "github_link": "https://github.com/Trevor5008/GameShowApp",
       "image_urls": [
         "/images/game_show_app_2.png",
@@ -47,7 +47,7 @@
       "project_name": "Interactive Form",
       "description": "Responsive form with client-side validation and dynamic error-handling",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://trevor5008.github.io/InteractiveForm/",
       "github_link": "https://github.com/Trevor5008/InteractiveForm",
       "image_urls": [
         "/images/interactive_form_1.png",
@@ -75,7 +75,7 @@
       "project_name": "Student Data Pages",
       "description": "Pagination demonstration for mock student data",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "",
+      "live_link": "https://trevor5008.github.io/StudentDataPagination/",
       "github_link": "https://github.com/Trevor5008/StudentDataPagination",
       "image_urls": [
         "/images/student_data_1.png",
