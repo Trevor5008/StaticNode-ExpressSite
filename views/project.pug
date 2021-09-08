@@ -21,8 +21,14 @@ block content
          each lang in projectData.technologies
             li= lang
 
-        a.btn-link(href= projectData.live_link) Live Demo
-        a.btn-link(href= projectData.github_link target="_blank") GitHub Repo
+        a.btn-link(href= projectData.live_link target="_blank")
+         |
+         i.fas.fa-play
+         |   Live Demo  
+        a.btn-link(href= projectData.github_link target="_blank")
+         |
+         i.fab.fa-github 
+         |   Github Repo
     .project-img-box.box
       - let n= 1
          while n < projectData.image_urls.length

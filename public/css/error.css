@@ -38,6 +38,7 @@ section.notFound h1, h2, h3 {
 
 div.text {
     height: 50vh;
+    margin-right: 10vw;
 }
 
 div.text a {
@@ -51,8 +52,14 @@ div.text a:hover {
     cursor: pointer;
 }
 
-.stack-trace {
-   font-size: .5em;
+img {
+   transform: scale(.85);
+}
+
+.small-text {
+   position: relative;
+   top: 5vh;
+   font-size: 15px;
 }
 
 @media only screen and (max-width: 768px) {

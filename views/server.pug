@@ -1,0 +1,11 @@
+extends error.pug
+
+block content
+   .text
+      h1= err.status
+      h2 SERVER ERROR
+      H3 BACK TO HOME?
+      a(href='/') YES
+      if err
+         .small-text 
+            pre #{err.message}
