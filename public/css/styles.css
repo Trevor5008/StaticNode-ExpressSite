@@ -129,6 +129,11 @@ nav a span {
   font-size: 1.25rem;
 }
 
+nav a:hover {
+   color: black;
+   font-weight: bolder;
+}
+
 .sidebar {
   position: absolute;
   top: 0;
@@ -153,7 +158,7 @@ nav a span {
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  border: 4px solid #fff;
+  border-radius: 5px;
 }
 
 .dev-intro-box {
@@ -179,6 +184,10 @@ nav a span {
   letter-spacing: 2.5px;
   text-transform: uppercase;
   color: #555;
+}
+
+.sidebar a:hover {
+   color: rgb(194, 194, 194);
 }
 
 .header {
@@ -244,6 +253,8 @@ nav a span {
 }
 
 .projects-box h5 {
+  position: relative;
+  top: 2px;
   font-family: 'Timmana', sans-serif;  
   font-weight: 400;
   font-size: 13px;
@@ -251,6 +262,7 @@ nav a span {
   text-transform: uppercase;
   color: #635f5f;
   margin: 0 auto 8px;
+  text-shadow: 3px 3px 5px rgb(170, 170, 170);
 }
 
 .cell a {
@@ -259,12 +271,14 @@ nav a span {
 
 .cell img {
   width: 100%;
-  border: 4px solid #fff;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  border-radius: 3px;
+  border: 1.5px solid rgb(161, 161, 161);
 }
 
 .cell img:hover {
-   transform: scale(1.05);
+   transform: translateX(5px) translateY(-5px);
+   box-shadow: -10px 7px 5px rgb(114, 114, 114);
+   transition: .25s ease-in-out;
 }
 
 
@@ -285,6 +299,17 @@ nav a span {
   margin-bottom: 35px;
 }
 
+#contact-phone,
+#contact-email {
+   margin: 0 10px 5px 10px;
+}
+
+#contact-phone p,
+#contact-email p {
+   display: inline;
+   margin-left: 10px;
+}
+
 .project-img {
   width: 100%;
   max-width: 1065px;
@@ -298,12 +323,20 @@ nav a span {
   text-align: center;
   color: #fefefe;
   width: 100%;
-  max-width: 255px;
+  max-width: 245px;
   margin: auto 0 5px 0;
   padding: 0.85rem .85rem;
   background-color: #333;
   border: 1px solid transparent;
   border-radius: 5px;
+}
+
+.btn-link:first-of-type {
+   margin-top: 10px;
+}
+
+.btn-link:hover {
+   color: rgb(231, 175, 110);
 }
 
 /* 
