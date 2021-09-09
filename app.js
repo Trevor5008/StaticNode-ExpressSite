@@ -4,6 +4,7 @@ const port = 3000;
 const path = require('path');
 const { projects } = require('./data.json')
 
+// Set template to pug
 app.set('view engine', 'pug');
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
@@ -16,6 +17,7 @@ app.get('/about', (req, res) => {
    res.render('about');
 });
 
+// helper method for retrieving selected project data
 const getProjectData = projectId => projects[projectId];
 
 app.get('/project/:id', (req, res) => {
