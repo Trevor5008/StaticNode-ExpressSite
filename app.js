@@ -29,6 +29,7 @@ app.get('/project/:id', (req, res) => {
       const err = new Error();
       err.status = 404;
       err.message = `You chose a project that doesn't exist (yet)`;
+      console.log(err.message)
       res.render('page-not-found', { err })
    }
 });
@@ -37,13 +38,14 @@ app.get('/project/:id', (req, res) => {
 app.use('/error', (req, res, next) => {
    const err = new Error();
    err.status = 500;
-   err.message = `There's an issue on our end`;
+   err.message = `There's a server issue... apologies`;
    next(err);
 });
 
 /* 404 Error Handler for non-existent routes */
 app.use((req, res, next) => {
-   const err = new Error(`It's 2021... that doesn't exist yet`)
+   const err = new Error(`It's 2021... that doesn't exist yet`);
+   console.log(`It looks as though you're trying to find a non-existent route`)
    res.status(404).render('page-not-found', { err });
 });
 
@@ -53,6 +55,7 @@ app.use((err, req, res, next) => {
       res.status(err.status).render('not-found', { err });
    } else {
       err.message = err.message || 'Whoops... looks like an issue on the server';
+      console.log(`Error: ${err.status} (There appears to be a server issue)`)
       res.status(err.status || 500).render('server', { err });
    }
 });
