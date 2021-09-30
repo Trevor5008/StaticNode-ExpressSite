@@ -2,20 +2,6 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Quote Generator",
-      "description": "Generates and displays randomized  famous quotes",
-      "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "https://trevor5008.github.io/RandomQuoteGenerator/",
-      "github_link": "https://github.com/Trevor5008/RandomQuoteGenerator",
-      "image_urls": [
-        "/images/quote_generator_3.png",
-        "/images/quote-generator.gif",
-        "/images/quote_generator_1.png",
-        "/images/quote_generator_2.png"
-      ]
-    },
-    {
-      "id": 1,
       "project_name": "Mock Employee Data Generator",
       "description": "Displays randomly generated employee data from an external API",
       "technologies": ["JavaScript", "CSS", "API", "HTML"],
@@ -29,7 +15,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "project_name": "Game Show",
       "description": "Single-player Phrase guessing game",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -43,7 +29,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "project_name": "Interactive Form",
       "description": "Responsive form with client-side validation and dynamic error-handling",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -57,11 +43,25 @@
       ]
     },
     {
+      "id": 3,
+      "project_name": "Gif Gallery",
+      "description": "React app for searching and displaying gifs",
+      "technologies": ["JavaScript", "CSS", "HTML", "React"],
+      "live_link": "https://trevor5008.github.io/GalleryApp",
+      "github_link": "https://github.com/Trevor5008/GalleryApp",
+      "image_urls": [
+        "/images/GalleryApp_1.png",
+        "/images/GalleryApp.gif",
+        "/images/GalleryApp_3.png",
+        "/images/GalleryApp_2.png"
+      ]
+    },
+    {
       "id": 4,
       "project_name": "Mock Twitter (Twiddler)",
       "description": "Simplified Twitter Clone",
       "technologies": ["JavaScript", "CSS", "HTML", "jQuery"],
-      "live_link": "",
+      "live_link": "https://trevor5008.github.io/TwitterClone/",
       "github_link": "https://github.com/Trevor5008/TwitterClone",
       "image_urls": [
         "/images/twitter_clone_1.jpg",
