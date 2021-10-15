@@ -30,16 +30,16 @@
     },
     {
       "id": 2,
-      "project_name": "Interactive Form",
-      "description": "Responsive form with client-side validation and dynamic error-handling",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://trevor5008.github.io/InteractiveForm/",
-      "github_link": "https://github.com/Trevor5008/InteractiveForm",
+      "project_name": "SQL Library Manager",
+      "description": "Application for managing library inventory",
+      "technologies": ["Node.js/Express", "Sequelize", "SQLite", "Pug", "JavaScript", "HTML", "CSS"],
+      "live_link": "",
+      "github_link": "https://github.com/Trevor5008/SqlLibraryMgr",
       "image_urls": [
-        "/images/interactive_form_1.png",
-        "/images/interactive-form.gif",
-        "/images/interactive_form_2.png",
-        "/images/interactive_form_3.png"
+        "/images/sql_library_1.png",
+        "/images/sql_library.gif",
+        "/images/sql_library_2.png",
+        "/images/sql_library_3.png"
       ]
     },
     {

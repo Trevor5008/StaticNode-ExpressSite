@@ -20,11 +20,11 @@ block content
         ul
          each lang in projectData.technologies
             li= lang
-
-        a.btn-link(href= projectData.live_link target="_blank")
-         |
-         i.fas.fa-play
-         |   Live Demo  
+        if projectData.live_link
+          a.btn-link(href= projectData.live_link target="_blank")
+          |
+          i.fas.fa-play
+          |   Live Demo  
         a.btn-link(href= projectData.github_link target="_blank")
          |
          i.fab.fa-github 
